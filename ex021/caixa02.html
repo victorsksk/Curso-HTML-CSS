@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 255, 255, 0.575);
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: brown;
+            padding: 5px;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-right: 10px;
+            padding: 0px 10px;
+            font-weight: bolder;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            background-color: white;
+            color: brown;
+            border-radius: 2px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.616);
+        }
+        article {
+            background-color: lightgray;
+        }
+        article > aside {
+            background-color: rgb(102, 101, 101);
+            text-align: right;
+        }
+        article > p {
+            text-align: justify;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+            background-color: darkorange;
+            color: white;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        footer > p > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        footer > p > a:hover {
+            text-decoration: underline;
+        }
+        #bola {
+            text-align: center;
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        #bola > p {
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non placeat praesentium, omnis quas tenetur ipsam in adipisci cupiditate error nemo distinctio aliquid doloribus illum voluptate fugiat sint corrupti id veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fugit vitae quisquam. Aliquam mollitia nulla temporibus ea, explicabo ipsa cupiditate veniam molestias facilis nesciunt fugit sequi quod eveniet quibusdam animi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos ut blanditiis fugit molestiae veniam et accusamus incidunt magni amet aliquam laudantium debitis illo magnam repudiandae voluptatum facere iusto, aliquid dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sequi porro, quae iure tempora, eos fuga quaerat cupiditate est aspernatur adipisci! Dolorem earum suscipit rem quos iure iste deleniti libero?</p>
+                <aside>
+                    <p>Artigo escrito por Fulano</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Noticia 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi cumque aperiam consectetur in quos distinctio atque dolores commodi minus. Fugiat et quas incidunt placeat ea! Porro veniam dignissimos excepturi minus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit eum provident cupiditate recusandae, doloremque illum! Eius vitae, labore quam ducimus odio ea deleniti similique? Omnis repellendus autem quas magnam non! Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sunt vitae iste aliquid dolor quod est quam. Tenetur velit ipsa esse perferendis ipsam aspernatur impedit molestiae praesentium quasi. Voluptates, aliquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias rerum quas blanditiis impedit possimus, ab, animi autem ad, ducimus et porro placeat! Cupiditate repellendus maiores quisquam distinctio atque iure ipsum.</p>
+                <aside>
+                    <p>Artigo escrito por Fulano 2</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvoldido pelo <a href="https://www.instagram.com/victorsksk" target="_blank">@victorsksk</a></p>
+    </footer>
+    <div id="bola">
+        <p>Criando circulo</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*
+
+id = #
+class = .
+
+*/
+body {
+    background-color: rgba(0, 255, 0, 0.26);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(1, 97, 1);
+}
+
+h1#principal {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: rgb(1, 97, 1);
+    color: white;
+}
+
+.basic {
+    color: rgba(51, 77, 49);
+    text-decoration: underline;
+}
+
+.intermediario {
+    color: rgba(224, 224, 8, 0.884);
+    text-decoration: underline;
+}
+
+.avancado {
+    color: rgba(255, 0, 0, 0.685);
+    text-decoration: underline;
+}
+
+h2 {
+    color: rgba(51, 77, 49);
+}
+
+p {
+    text-align: justify;
+}
+
+.destaque {
+    background-color: deeppink;
+}

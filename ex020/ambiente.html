@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambiente de estudos pseudos</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #div1 > ul, #div2 > ul {
+            display: none;
+        }
+        #div1:hover > ul, #div2:hover > ul {
+            display: block;
+        }
+        p {
+            display: inline-block;
+            background-color: aqua;
+            height: 50px;
+            width: 150px;
+            border-radius: 10px;
+            border: 1px solid black;
+            text-align: center;
+        }
+        li {
+            font-weight: bold;
+        }
+        a:visited {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fique com mouse em cima para visualizar</h1>
+    <div id="div1">
+        <p id="jogos">Jogos</p>
+        <ul type="disc">
+            <li><a href="https://www.ea.com/pt-br/games/fifa/fifa-22" target="_blank">FIFA 22</a></li>
+            <Li>Minecraft</Li>
+            <li>League of Legends</li>
+            <li>Rocket League</li>
+        </ul>
+    </div>
+    <div id="div2">
+        <p id="linguagens">Linguagens</p>
+        <ul type="disc">
+            <li>Python</li>
+            <Li>Java</Li>
+            <li>JavaScript</li>
+            <li>C</li>
+        </ul>
+    </div>
+</body>
+</html>

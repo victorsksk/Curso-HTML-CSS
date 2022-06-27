@@ -75,6 +75,7 @@ main {
     display: block;
     text-align: center;
     margin: auto;
+    width: 100%;
 }
 
 article > h2 {

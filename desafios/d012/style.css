@@ -14,7 +14,7 @@
     font-size: 1em;
 }
 
-body {
+body, html {
     min-height: 100vh;
     font-family: var(--fonte1);
 }
@@ -30,7 +30,7 @@ header > h1 {
     font-family: var(--fonte2);
     font-weight: normal;
     font-variant: small-caps;
-    font-size: 15vh;
+    font-size: 10vw;
     padding-top: 50px;
 }
 
@@ -47,7 +47,6 @@ header a:hover {
 header > p {
     font-family: var(--fonte1);
     padding-bottom: 50px;
-    font-size: 1.2em;
 }
 
 section {

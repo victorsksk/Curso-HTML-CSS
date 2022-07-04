@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFrame</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque autem perspiciatis voluptatibus, laborum facilis, obcaecati rerum eveniet delectus fugiat nulla blanditiis, omnis tempora odio voluptate nihil provident quos tempore exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, deserunt consequuntur? Laborum asperiores, enim quidem cum minima, cumque velit obcaecati mollitia libero dolorem dolores laboriosam animi hic modi rerum commodi.</p>
+    <iframe src="paginasExtras/pag004.html" sandbox="allow-forms" referrerpolicy="no-referrer">
+        <!--
+            sandbox="sandbox" -> Bloqueia acesso de outros sites de cadastros (segurança no máximo)
+            sandbox="allow-same-origin" -> permite somente conteúdo de mesma origem
+            sandbox="allow-forms" -> permite somente formularios
+            sandbox="allow-scripts" -> permite somente scripts
+
+            referrerpolicy="no-referrer-when-downgrade" -> padrão
+            referrerpolicy="no-referrer" -> não permite carregar dado do usuário
+        -->
+        <p>Seu navegador não é compatível com isso...</p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque autem perspiciatis voluptatibus, laborum facilis, obcaecati rerum eveniet delectus fugiat nulla blanditiis, omnis tempora odio voluptate nihil provident quos tempore exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, deserunt consequuntur? Laborum asperiores, enim quidem cum minima, cumque velit obcaecati mollitia libero dolorem dolores laboriosam animi hic modi rerum commodi.</p>
+</body>
+</html>

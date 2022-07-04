@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../imagens/fundo-madeira.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 99.5vh;
+    border: 1px solid black;
+}
+
+#telefone {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}

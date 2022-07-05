@@ -27,27 +27,28 @@ main {
 
 #telefone {
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 625px;
-    width: 310px;
+    height: 540px;
+    width: 268px;
     background-image: url(../imagens/frame-iphone.png);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #tela {
     position: relative;
-    top: 78px;
-    left: 21px;
-    width: 269px;
-    height: 472px;
+    top: 71px;
+    left: 20px;
+    width: 228px;
+    height: 402px;
 }
 
 #sociais {
-    text-align: right;
+    text-align: center;
 }
 
 #sociais img {

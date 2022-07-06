@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apredendo Media Queries</title>
+    <style>
+        /* Smartphones (600px para baixo) */
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: blue;
+            }
+        }
+
+        /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+        @media only screen and (min-width: 600px) {
+            body {
+                background-color: green;
+            }
+        }
+
+        /* Dispostivos Médios (Tablets deitados, 768px para cima) */
+        @media only screen and (min-width: 768px) {
+            body {
+                background-color: yellow;
+            }
+        }
+
+        /* Dispostivos Largos (laptops/desktops, 992px para cima) */
+        @media only screen and (min-width: 992px) {
+            body {
+                background-color: red;
+            }
+        }
+
+        /* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+        @media only screen and (min-width: 1200px) {
+            body {
+                background-color: violet;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Entendendo Media Queries</h1>
+    
+</body>
+</html>

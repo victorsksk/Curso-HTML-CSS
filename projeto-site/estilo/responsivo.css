@@ -58,7 +58,11 @@
         text-align: center;
     }
     header #titulo2 {
-        font-size: 15vw;
+        font-size: 16vw;
         text-align: center;
     }
+    section h2 {
+        font-size: 10vw;
+    }
+
 }

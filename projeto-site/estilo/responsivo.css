@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8"; 
 
 @media screen and (max-width: 1150px) {
     nav {
@@ -48,8 +48,17 @@
     }
 }
 
-@media screen and (max-width: 600px) {
-    section h2 {
-        font-size: 8vw;
+@media screen and (max-width: 530px) {
+    header {
+        display: block;
+    }
+    header #titulo1 {
+        letter-spacing: 8px;
+        font-size: 5vw;
+        text-align: center;
+    }
+    header #titulo2 {
+        font-size: 15vw;
+        text-align: center;
     }
 }

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 450px) {
+    #area-login {
+        width: 90vw;
+    }
+
+    #area-login input, button {
+        max-width: 67vw;
+    }
+
+    #area-login p {
+        font-size: 4vw;
+    }
+}

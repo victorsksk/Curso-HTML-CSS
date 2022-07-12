@@ -31,6 +31,7 @@ main > #lado-esquerdo {
 #lado-esquerdo > h1 {
     font-size: 3vw;
     color: #77ffc0;
+    text-align: center;
 }
 
 #lado-esquerdo > img {
@@ -46,7 +47,6 @@ main > #lado-direito {
 }
 
 #lado-direito #area-login {
-    border: 1px solid black;
     width: 60%;
     padding: 30px 35px;
     background-color: #2f2841;
@@ -113,5 +113,9 @@ main > #lado-direito {
 
 #lado-direito #btn-login:active {
     background-color: #00ff88a2;
+}
 
+#logo {
+    align-self: flex-end;
+    margin: 10px;
 }

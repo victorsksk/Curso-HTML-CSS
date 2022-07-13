@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 :root {
     --cor1: #1B1F27;
@@ -27,6 +28,14 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+main h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    margin-bottom: 30px;
+    font-size: 3em;
+    text-align: center;
 }
 
 main #area-login {
